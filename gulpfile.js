@@ -1,7 +1,7 @@
 var gulp = require('gulp'),
   webserver = require('gulp-server-io'),
-  source = './builds',
-  dest = './builds';
+  source = './docs',
+  dest = './docs';
 
 function html() {
   return gulp.src(dest + '**/*.html');
